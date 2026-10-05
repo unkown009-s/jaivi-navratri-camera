@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Jaivi 🪔</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<style id="beauty-scanner-css">
+.beauty-scanner{min-height:100vh;display:grid;place-items:center;padding:90px 20px;background:radial-gradient(circle at 50% 35%,rgba(255,190,80,.13),transparent 35%),#07050b;text-align:center;position:relative;z-index:2}.beauty-shell{width:min(760px,100%);padding:42px 24px;border:1px solid rgba(255,210,130,.2);border-radius:30px;background:rgba(15,10,22,.72);backdrop-filter:blur(18px);box-shadow:0 0 70px rgba(255,170,60,.08)}.beauty-shell h2{font-size:clamp(2.3rem,7vw,5rem);margin:10px 0;background:linear-gradient(90deg,#fff,#ffd27d,#fff);-webkit-background-clip:text;color:transparent}.beauty-shell>p{opacity:.72}.beauty-btn{border:1px solid rgba(255,210,130,.35);background:rgba(255,255,255,.06);color:#fff;padding:13px 20px;border-radius:999px;cursor:pointer;font-weight:800;letter-spacing:.06em}.beauty-btn.primary{background:linear-gradient(135deg,#ffd27d,#ff8b3d);color:#160b05;border:0}.beauty-btn:disabled{opacity:.55;cursor:wait}.beauty-panel{position:relative;width:min(560px,100%);margin:20px auto 10px;aspect-ratio:16/10;overflow:hidden;border-radius:24px;background:#020207;border:1px solid rgba(255,210,130,.2);opacity:.6;transition:.5s}.beauty-panel.active{opacity:1;box-shadow:0 0 40px rgba(255,170,60,.15)}.beauty-panel video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1);filter:saturate(1.05) contrast(1.05)}.beauty-scanline{position:absolute;left:0;right:0;top:-5%;height:3px;background:#ffd27d;box-shadow:0 0 18px #ff9f43;opacity:0}.beauty-panel.active .beauty-scanline{opacity:1;animation:beautyScan 1.7s linear infinite}.beauty-status{position:absolute;left:14px;right:14px;top:14px;padding:10px;border-radius:12px;background:rgba(0,0,0,.55);font:700 12px monospace;letter-spacing:.08em}.beauty-result{position:absolute;inset:auto 10% 12%;padding:18px;border-radius:18px;background:rgba(4,2,8,.82);border:1px solid rgba(255,210,130,.35);backdrop-filter:blur(10px)}.beauty-result strong{display:block;font-size:clamp(1.4rem,5vw,2.5rem);color:#ffd27d}.beauty-result small{display:block;margin-top:6px;opacity:.85}.beauty-panel.overload{animation:beautyShake .08s linear 12;filter:brightness(1.5) saturate(1.4)}.beauty-permission{display:flex;flex-direction:column;gap:7px;margin:14px auto 0;padding:14px;border:1px solid rgba(255,120,120,.35);border-radius:14px;background:rgba(120,20,20,.16);font-size:13px}.beauty-permission span{opacity:.75}.hidden{display:none!important}.beauty-note{font-size:12px!important;opacity:.45!important;margin-top:18px}@keyframes beautyScan{from{transform:translateY(0)}to{transform:translateY(1150%)}}@keyframes beautyShake{0%,100%{transform:translate(0)}25%{transform:translate(5px,-2px)}50%{transform:translate(-5px,2px)}75%{transform:translate(3px,1px)}}@media(max-width:600px){.beauty-shell{padding:32px 14px}.beauty-panel{aspect-ratio:4/3}}
+</style>
+</head>
+
+<body>
+
+    <!-- =========================================
+         CINEMATIC BACKGROUND
+    ========================================== -->
+
+    <div id="background">
+
+        <div class="aurora aurora-1"></div>
+        <div class="aurora aurora-2"></div>
+        <div class="aurora aurora-3"></div>
+
+        <div class="stars"></div>
+
+        <div class="particle-field"></div>
+
+        <div class="mandala mandala-1"></div>
+        <div class="mandala mandala-2"></div>
+
+        <div class="floating-diyas">
+
+            <div class="bg-diya d1">🪔</div>
+            <div class="bg-diya d2">🪔</div>
+            <div class="bg-diya d3">🪔</div>
+            <div class="bg-diya d4">🪔</div>
+            <div class="bg-diya d5">🪔</div>
+            <div class="bg-diya d6">🪔</div>
+            <div class="bg-diya d7">🪔</div>
+            <div class="bg-diya d8">🪔</div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         INTRO
+    ========================================== -->
+
+    <section id="intro">
+
+        <div class="intro-vignette"></div>
+
+        <div class="intro-center">
+
+            <div class="intro-diya">
+                🪔
+            </div>
+
+            <div class="intro-ring"></div>
+
+            <p class="intro-small">
+                A LITTLE SOMETHING FOR YOU
+            </p>
+
+            <h1 id="introText"></h1>
+
+            <div class="intro-loading">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MAIN EXPERIENCE
+    ========================================== -->
+
+    <main id="experience" class="hidden">
+
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section class="hero">
+
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    NAVRATRI • 2026
+                </span>
+
+                <h1>
+                    You Were<br>
+                    <span>Here.</span>
+                </h1>
+
+                <p>
+                    Some memories deserve more than a photo.
+                </p>
+
+                <div class="scroll-indicator">
+
+                    <span>SCROLL TO REMEMBER</span>
+
+                    <div class="scroll-line"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MEMORY ONE
+        ====================================== -->
+
+        <section class="memory cinematic-memory">
+
+            <div class="memory-number">
+                01
+            </div>
+
+            <img
+                src="assets/photos/jaivi1.png"
+                alt="Navratri memory"
+            >
+
+            <div class="image-overlay"></div>
+
+            <div class="memory-content">
+
+                <span class="chapter">
+                    LAST NAVRATRI
+                </span>
+
+                <h2>
+                    It's been one whole year.
+                </h2>
+
+                <p>
+                    And we never thought that night
+                    would become our last Navratri together.
+                </p>
+
+                <div class="memory-divider"></div>
+
+                <p class="gold">
+                    Last Navratri…
+                </p>
+
+                <p>
+                    we didn't know these moments
+                    would become memories.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             INTERACTIVE DIYA GAME
+        ====================================== -->
+
+        <section class="memory-game">
+
+            <div class="game-orb"></div>
+
+            <div class="game-content">
+
+                <span class="chapter">
+                    MEMORY GAME
+                </span>
+
+                <h2>
+                    Light the memories.
+                </h2>
+
+                <p class="game-subtitle">
+                    Nine little lights.
+                    Nine little pieces of that night.
+                </p>
+
+
+                <div class="memory-diyas">
+
+                    <button class="memory-diya"
+                            data-memory="The laughs">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The dancing">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The madness">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The music">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The late nights">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The random talks">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The group">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The memories">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya special-diya"
+                            data-memory="And you.">
+                        🪔
+                    </button>
+
+                </div>
+
+
+                <div id="memoryText">
+                    <span>Choose a light.</span>
+                </div>
+
+
+                <div class="progress">
+
+                    <div id="progressBar"></div>
+
+                </div>
+
+
+                <button id="continueButton" class="hidden">
+                    CONTINUE THE MEMORY →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MEMORY TWO
+        ====================================== -->
+
+        <section class="memory cinematic-memory">
+
+            <div class="memory-number">
+                02
+            </div>
+
+            <img
+                src="assets/photos/jaivi2.png"
+                alt="Navratri memory"
+            >
+
+            <div class="image-overlay"></div>
+
+            <div class="memory-content">
+
+                <span class="chapter">
+                    THE SAME MADNESS
+                </span>
+
+                <h2>
+                    The same music.
+                </h2>
+
+                <p>
+                    The same madness.
+                </p>
+
+                <p>
+                    The same people.
+                </p>
+
+                <p>
+                    And obviously…
+                </p>
+
+                <p class="funny">
+                    you talking about your new crushes
+                    every time we met 😂
+                </p>
+
+                <div class="memory-divider"></div>
+
+                <p>
+                    Seriously…
+                </p>
+
+                <p class="gold">
+                    who is going to tell us
+                    all the new crush stories now?
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MEMORY THREE
+        ====================================== -->
+
+        <section class="memory cinematic-memory">
+
+            <div class="memory-number">
+                03
+            </div>
+
+            <img
+                src="assets/photos/jaivi3.png"
+                alt="Navratri memory"
+            >
+
+            <div class="image-overlay"></div>
+
+            <div class="memory-content">
+
+                <span class="chapter">
+                    WITHOUT YOU
+                </span>
+
+                <h2>
+                    Why did you have to go?
+                </h2>
+
+                <p>
+                    Now the circle is going to feel
+                    a little too quiet without you.
+                </p>
+
+                <p class="gold">
+                    It's just not going to be the same.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             JAIVI REVEAL
+        ====================================== -->
+
+        <section class="jaivi-reveal">
+
+            <div class="green-energy"></div>
+
+            <div class="reveal-particles"></div>
+
+            <div class="reveal-ring ring-one"></div>
+            <div class="reveal-ring ring-two"></div>
+            <div class="reveal-ring ring-three"></div>
+
+            <div class="reveal-content">
+
+                <span class="chapter">
+                    BUT THERE'S ONE PERSON MISSING…
+                </span>
+
+                <p>
+                    You already know who.
+                </p>
+
+                <h1>
+                    JAIVI
+                </h1>
+
+                <div class="heart">
+                    💚
+                </div>
+
+                <p class="reveal-bottom">
+                    Because the circle isn't complete without you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             DISTANCE
+        ====================================== -->
+
+        <section class="distance">
+
+            <div class="distance-glow"></div>
+
+            <div class="distance-content">
+
+                <div class="giant-diya">
+                    🪔
+                </div>
+
+                <span class="chapter">
+                    DISTANCE
+                </span>
+
+                <h2>
+                    You may be in India…
+                </h2>
+
+                <p>
+                    …but you're still part of our Navratri.
+                </p>
+
+                <div class="distance-line"></div>
+
+                <p>
+                    Because distance can change
+                    the picture…
+                </p>
+
+                <p class="gold">
+                    …but it can't change the memories.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FINAL MESSAGE
+        ====================================== -->
+
+        <section class="final">
+
+            <div class="final-light"></div>
+
+            <div class="final-content">
+
+                <span class="chapter">
+                    ONE LAST THING
+                </span>
+
+                <h2>
+                    We remember you.
+                </h2>
+
+                <p>
+                    And we miss having you here.
+                </p>
+
+                <h3>
+                    Happy Navratri, Jaivi 🪩✨
+                </h3>
+
+                <p class="small">
+                    Until the circle is complete again. ❤️
+                </p>
+
+                <button id="revealMemories">
+                    ONE MORE THING →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FINAL PHOTO EXPERIENCE
+        ====================================== -->
+
+        <section id="finalMemories" class="final-memories hidden">
+
+            <div class="final-title">
+
+                <span>
+                    ONE LAST MEMORY
+                </span>
+
+                <h2>
+                    Same people.
+                </h2>
+
+            </div>
+
+
+            <div class="photo-stage">
+
+                <div class="photo-card card-one">
+
+                    <img
+                        src="assets/photos/jaivi1.png"
+                        alt="Memory one"
+                    >
+
+                </div>
+
+
+                <div class="photo-card card-two">
+
+                    <img
+                        src="assets/photos/jaivi2.png"
+                        alt="Memory two"
+                    >
+
+                </div>
+
+
+                <div class="photo-card card-three">
+
+                    <img
+                        src="assets/photos/jaivi3.png"
+                        alt="Memory three"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="final-message">
+
+                <p>
+                    Same madness.
+                </p>
+
+                <p>
+                    Same memories.
+                </p>
+
+                <p class="gold">
+                    New memories waiting for us.
+                </p>
+
+                <div class="final-diyas">
+                    🪔 🪔 🪔 🪔 🪔
+                </div>
+
+                <p class="end">
+                    Until next Navratri…
+                </p>
+
+            </div>
+
+        </section>
+
+
+    
+<section id="beautyScanner" class="beauty-scanner">
+  <div class="beauty-shell">
+    <span class="chapter">SECRET MINI GAME</span>
+    <h2>✨ BEAUTY SCANNER</h2>
+    <p>Point the camera at the person and press scan. The scanner will decide their fate.</p>
+    <button id="beautyScanBtn" class="beauty-btn primary">📷 START SCAN</button>
+    <div id="beautyScannerPanel" class="beauty-panel">
+      <video id="beautyVideo" autoplay playsinline muted></video>
+      <div class="beauty-scanline"></div>
+      <div id="beautyStatus" class="beauty-status">Scanner offline</div>
+      <div id="beautyResult" class="beauty-result"></div>
+    </div>
+    <div id="beautyPermission" class="beauty-permission hidden">
+      <strong>📷 Camera access is blocked</strong>
+      <span>Use Live Server in VS Code, then click the 🔒 icon beside the address → Camera → Allow → reload.</span>
+    </div>
+    <p class="beauty-note">Camera access starts only after you press START SCAN.</p>
+  </div>
+</section>
+
+</main>
+
+
+    <!-- =========================================
+         MUSIC
+    ========================================== -->
+
+    <audio
+        id="music"
+        src="assets/music/vhalam.mp3"
+        preload="auto">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
